@@ -13,11 +13,11 @@ const MyForm = () => {
   // console.log(name);
   // console.log(email);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (e) => {
     event.preventDefaut();
     console.log("Enviando o formulário");
-    console.log(name, email)
-  }
+    console.log(name, email);
+  };
 
   return (
     <div>
