@@ -7,7 +7,7 @@ function App() {
      <h2>Forms</h2>
      <MyForm user={{
       name: "Jaime",
-      email: "jaimejuniordt@gmail.com"
+      email: "jaimejuniordt@gmail.com",
       bio: "Sou um advogado",
       role: "admin",
       }} />
